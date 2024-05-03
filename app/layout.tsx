@@ -20,8 +20,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#FFFFFF" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        ></meta>
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
       </head>
       <body className="font-inter">
         <Providers>{children}</Providers>
