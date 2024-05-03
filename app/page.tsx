@@ -13,7 +13,9 @@ const Home = () => {
   return (
     <div className="container py-10 m-auto">
       <nav>
-        <h1 className="font-semibold text-3xl mb-10">resonance.</h1>
+        <h1 className="font-semibold text-3xl mb-10 text-blue-400">
+          resonate.
+        </h1>
       </nav>
 
       <div className="flex justify-between items-center">
