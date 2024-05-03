@@ -74,3 +74,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* This rule ensures a consistent user experience by preventing pinch-zoom gestures,
+   providing an app-like feel on Progressive Web Apps (PWAs). */
+body {
+  /* Allow horizontal and vertical panning (scrolling) while disabling pinch-zoom gestures. */
+  touch-action: pan-x pan-y;
+}

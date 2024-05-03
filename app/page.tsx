@@ -32,7 +32,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center md:inline-block">
+      <div className="flex flex-col justify-center items-center md:inline-block">
+        <Calories />
         <Calories />
       </div>
     </div>
